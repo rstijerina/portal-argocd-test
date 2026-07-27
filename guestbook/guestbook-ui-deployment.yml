@@ -19,7 +19,7 @@ spec:
           ports:
             - containerPort: 80
           volumeMounts:
-            - name: pearc26-impasta-rw-pv
+            - name: data
               mountPath: /data
 
   volumes:
