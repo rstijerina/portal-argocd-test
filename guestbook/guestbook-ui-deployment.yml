@@ -19,8 +19,8 @@ spec:
           ports:
             - containerPort: 80
           volumeMounts:
-            - name: app-storage       # Must match the volume name below
-              mountPath: /data        # Location inside the container
+            - name: pearc26-impasta-rw-pv
+              mountPath: /data
 
   volumes:
     - name: data
