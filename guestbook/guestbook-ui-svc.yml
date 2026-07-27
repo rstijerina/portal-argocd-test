@@ -8,8 +8,3 @@ spec:
     targetPort: 80
   selector:
     app: guestbook-ui
-
-  volumes:
-    - name: data
-      persistentVolumeClaim:
-        claimName: pearc26-impasta-rw-pv
