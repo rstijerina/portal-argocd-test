@@ -18,3 +18,8 @@ spec:
           name: guestbook-ui
           ports:
             - containerPort: 80
+
+  volumes:
+    - name: data
+      persistentVolumeClaim:
+        claimName: pearc26-impasta-rw-pv
