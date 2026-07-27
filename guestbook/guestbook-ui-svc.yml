@@ -10,5 +10,5 @@ spec:
     app: guestbook-ui
   volumes:
     - name: data
-    persistentVolumeClaim:
+      persistentVolumeClaim:
       claimName: pearc26-impasta-rw-pv
